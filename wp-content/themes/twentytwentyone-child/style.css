@@ -1,0 +1,82 @@
+/*
+
+Theme Name : twenety twenty one child
+Theme URI: https://wordpress.org/themes/twentytwentyonechild/
+Author: Anish Rai
+Author URI: http://example.com
+Template: twentytwentyone
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twentytwentyone-child
+
+
+*/
+
+body{
+    background-color: white !important;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+  font-family:sans-serif;
+  background:#555 !important;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  color:white;
+  text-decoration:none;
+}
+.navbar-collapse {
+        display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+  flex-direction: row;
+}
+.nav-link {
+    color: white;
+  text-decoration:none;
+  padding:1rem;
+  transition:all ease-in-out .2s;
+}
+.nav-link:hover + .dropdown-menu{
+    display:flex;
+}
+.dropdown-menu{
+  background-color:#ddd;
+  width:100%;
+  top:100%;
+  position:absolute;
+  left:0px;
+  display:none;
+  transition:all ease-in-out .2s;
+}
+.dropdown-item{
+  padding:1rem;
+}
